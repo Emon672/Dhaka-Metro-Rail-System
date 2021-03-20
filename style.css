@@ -1,0 +1,114 @@
+/*01.navbar
+
+
+          */
+          body {
+            min-height: 110vh;
+            background-color: lightcyan;
+           
+        }
+    
+    /*01.navbar*/
+    .navbar {
+        transition: all 0.4s;
+    }
+    
+    .navbar .nav-link {
+        color:white;
+    }
+    
+    .navbar .nav-link:hover,
+    .navbar .nav-link:focus {
+        color:black;
+        text-decoration: none;
+    }
+    
+    .navbar .navbar-brand {
+        color:green;
+    }
+    
+    
+    /* 02.Change navbar styling on scroll */
+    .navbar.active {
+        background: white;
+        box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .navbar.active .nav-link {
+        color: #555;
+    }
+    
+    .navbar.active .nav-link:hover,
+    .navbar.active .nav-link:focus {
+        color: #555;
+        text-decoration: none;
+    }
+    
+    .navbar.active .navbar-brand {
+        color: #555;
+    }
+    
+    
+    /* 03.Change navbar styling on small viewports */
+    @media (max-width: 991.98px) {
+        .navbar {
+            background: #fff;
+        }
+    
+        .navbar .navbar-brand, .navbar .nav-link {
+            color: #555;
+        }
+    }
+   /*04.header*/
+header {
+    position: relative;
+    background-color: black;
+    height: 75vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+    background-image: url('https://p4.wallpaperbetter.com/wallpaper/234/878/370/new-york-city-underground-subway-metro-wallpaper-preview.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+
+ /*05header end*/
+
+
+ /*06footer start*/
+#footer {
+position: relative;
+padding-top: 60px;
+padding-bottom: 60px;
+background-color:rgb(22, 22, 22) ;
+}
+
+.footer-logo {text-align: center;margin-bottom: 40px;}
+
+.footer-logo>a>img {
+    max-height: 80px;
+}
+.footer-follow {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.footer-follow li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 13px;
+}
+
+.footer-follow li a {
+display: inline-block;
+width: 50px;
+height: 50px;
+line-height: 50px;
+text-align: center;
+border-radius: 3px;
+background-color: white;
+color:black;
+}
+.footer-follow li a:hover{
+    background-color: green;
+}
